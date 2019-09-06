@@ -137,22 +137,20 @@ p {
 }
 
 .heroes {
+  -webkit-overflow-scrolling: touch;
+
   display: flex;
   flex-direction: row;
-  height: auto;
+  width: 100vw;
+  height: 85vh;
   overflow-y: hidden;
   overflow-x: scroll;
 }
 
 .heroes img {
   padding: 0.25em;
-  max-width: 100%;
-  height: auto;
-  max-height: 85vh;
-}
-
-.hero-nav {
-  height: 20vh;
+  width: auto;
+  height: 100%;
 }
 
 /* Icons */
